@@ -19,9 +19,14 @@ body {
 
 /* Cabeçalho */
 .cabecario {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #fff;
     border-bottom: 1px solid #ddd;
-    padding: 10px 20px;
+    height: 118px;
     width: 100%;
 }
 .main{
@@ -30,24 +35,24 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    margin: 0 auto;
 }
 
 .topo {
     width: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 
 .logo {
-    height: 50px;
+    height: 27px;
+    width: 152px;
 }
 
 .pesquisa {
-    flex: 1;
     margin: 0 20px;
     padding: 10px;
+    width: 550px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
