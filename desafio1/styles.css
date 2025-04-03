@@ -45,14 +45,16 @@ body {
 }
 
 .logo {
+    display: flex;
+    margin-right:40px ;
     height: 27px;
     width: 152px;
 }
 
 .pesquisa {
     margin: 0 20px;
-    padding: 10px;
-    width: 550px;
+    height: 40px;
+    width: 594px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -70,15 +72,23 @@ body {
 }
 
 .usuario, .carrinho {
-    height: 30px;
+    height: 24px;
+    width: 24px;
 }
 
 .carrinho-quantidade {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 12px;
+    bottom: 12px;
     background-color: #007BFF;
-    color: #fff;
     font-size: 12px;
-    padding: 2px 6px;
-    border-radius: 50%;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    border-radius: 100%;
 }
 
 .menu {
@@ -289,8 +299,9 @@ body {
 }
 
 .cafe{
-    width: 652px;
-    height: 747px;
+    z-index: 2;
+    width: 523px;
+    height: 528px;
 }
 .text-dois{
     width: 487px;
